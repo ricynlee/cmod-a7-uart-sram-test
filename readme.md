@@ -6,4 +6,4 @@ This is a loop-back UART test project. The CMOD-A7 module, connected to a Window
 
 > USB-UART driver and PC host tool `sercomm.py` is provided in this repo.
 
-The UART interface runs at the maximum 12MBaud. The on-board SRAM functions as a first-word-fall-through FIFO for the (though it may be unnecessary).
+The UART interface runs at the maximal rate(12MBaud). The on-board SRAM, running at the maximal rate(100MHz) functions as a first-word-fall-through FIFO for the (though it may be unnecessary).
